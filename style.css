@@ -33,9 +33,10 @@ body {
 }
 
 .description {
-  text-align: center;
+  text-align: left;
   width:20%;
     margin: auto;
+  max-width: 550px
 }
 
 .bullets {
