@@ -32,6 +32,26 @@ body {
   margin: auto;
 }
 
+.description {
+  text-align: center;
+  width:20%;
+    margin: auto;
+}
+
+.bullets {
+  text-align: left;
+  width:50%;
+    margin: auto;
+    max-width: 300px;
+}
+
+.bullets2 {
+  text-align: left;
+  width:50%;
+    margin: auto;
+    max-width: 550px;
+}
+
 .exp-header {
   text-align: Center;
   text-transform: uppercase;
