@@ -8,11 +8,13 @@
 </head>
 <body>
   <div id="About" class="tabcontent">
-    
+    <div class="exp-header">
      <h1>Joseph Lundquist</h1>
+  
      
        <p>Email: Joeylundquist91@gmail.com</p>
        <p>Phone: 218-940-9009</p>
+    </div>
    
    
       <div class="description">
@@ -69,8 +71,8 @@
         <li>Training new representatives</li>
 
       </ul>
-  </div>
-     </div>
+       </div>
+    </div>
      <div>
     <h4>Fond du Lac Reservation IT</h4>
     <h5 class="title">Low Voltage Installer Assistant</h5>
@@ -126,6 +128,12 @@
       <h6>Feb 09 2022 - Feb 10 2022</h6>
     </div>
   </div>
+
+  <div id="Story" class="tabcontent">
+    <h3>I started working on this with firefox, after hours of trying to figure out why I couldn't get my  </h3>
+   
+  
+  </div>
   
   
   <button class="tablink" onclick="opentab('About',this,'#555')" id="defaultOpen">About Me</button>
@@ -133,20 +141,20 @@
   <button class="tablink" onclick="opentab('Education',this,'#000000')">Education</button>
   <script>
       
-function opentab (tabname, elmnt, color){
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++){
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < tablinks.length; i++){
-    tablinks[i].style.backgroundcolor = "";
-  }
-  document.getElementById(tabname).style.display = "block";
-  elmnt.style.backgroundColor = color;
-}
-document.getElementById("defaultOpen").click();
+    function opentab (tabname, elmnt, color){
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++){
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < tablinks.length; i++){
+        tablinks[i].style.backgroundcolor = "";
+      }
+      document.getElementById(tabname).style.display = "block";
+      elmnt.style.backgroundColor = color;
+    }
+    document.getElementById("defaultOpen").click();
 
   </script> 
 </body>
