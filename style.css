@@ -34,9 +34,9 @@ body {
 
 .description {
   text-align: left;
-  width:20%;
+  width:50%;
     margin: auto;
-  max-width: 550px
+  max-width: 650px
 }
 
 .bullets {
