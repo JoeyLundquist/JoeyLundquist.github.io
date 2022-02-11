@@ -24,7 +24,7 @@
 #About {background-color: #555;}
 #Professional {background-color: #141414;}
 #Education {background-color: #000000;}
-
+#Story {background-color: #555;}
 body {
   background-color: #1a1919;
     color: #dddddd;
@@ -43,7 +43,7 @@ body {
   text-align: left;
   width:50%;
     margin: auto;
-    max-width: 300px;
+    max-width: 650px;
 }
 
 .bullets2 {
