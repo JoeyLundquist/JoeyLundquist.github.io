@@ -140,9 +140,9 @@
   </div>
   
   
-  <button class="tablink" onclick="opentab('About',this,'#555')" id="defaultOpen">About Me</button>
-  <button class="tablink" onclick="opentab('Professional',this,'#141414')">Professional Experience</button>
-  <button class="tablink" onclick="opentab('Education',this,'#000000')">Education</button>
+  <button class="tabs" onclick="opentab('About',this,'#555')" id="defaultOpen">About Me</button>
+  <button class="tabs" onclick="opentab('Professional',this,'#141414')">Professional Experience</button>
+  <button class="tabs" onclick="opentab('Education',this,'#000000')">Education</button>
   <script>
       
     function opentab (tabname, elmnt, color){
@@ -151,7 +151,7 @@
       for (i = 0; i < tabcontent.length; i++){
         tabcontent[i].style.display = "none";
       }
-      tablinks = document.getElementsByClassName("tablink");
+      tablinks = document.getElementsByClassName("tabs");
       for (i = 0; i < tablinks.length; i++){
         tablinks[i].style.backgroundcolor = "";
       }
